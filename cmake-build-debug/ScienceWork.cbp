@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/BinaryWords.cpp">
-			<Option target="ScienceWork"/>
-		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/BinaryWords.h">
-			<Option target="ScienceWork"/>
-		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Codeword.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
@@ -104,10 +98,22 @@
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h">
 			<Option target="ScienceWork"/>
 		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/RangeSolver.cpp">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/RangeSolver.h">
+			<Option target="ScienceWork"/>
+		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.h">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.cpp">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.h">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.cpp">

@@ -12,7 +12,10 @@
 class CodewordsExtractor
 {
 public:
-    Codeword *generateCodewords(const int **GMatrix, int &n, int &k) const;
+    int distance = 0;
+    Codeword *generateCodewords(const Codeword GMatrix[], int &n, int &k);
+
+    void binaryWordCreator(const int &k, Codeword &binaryWord) const;
 };
 
 

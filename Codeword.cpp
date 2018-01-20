@@ -2,9 +2,19 @@
 // Created by Oysha on 20/01/2018.
 //
 
-#include <cstdlib>
 #include "Codeword.h"
+#include <cstdlib>
 
+
+Codeword::Codeword()
+{
+    length = 127;
+    codeword = (int *)malloc(length * sizeof(int));
+
+    for (int i = 0; i < length; ++i) {
+        codeword[i] = 0;
+    }
+}
 
 Codeword::Codeword(const int _length)
 {
@@ -19,7 +29,7 @@ Codeword::Codeword(const int *line)
     }
 }
 
-Codeword &Codeword::operator+=(const int *w)
+Codeword &Codeword::operator+=(const Codeword w)
 {
     for (int i = 0; i < length; i++) {
         codeword[i] += w[i];
@@ -28,7 +38,7 @@ Codeword &Codeword::operator+=(const int *w)
     return *this;
 }
 
-Codeword &Codeword::operator=(const int w[])
+Codeword &Codeword::operator=(const Codeword w)
 {
     for (int i = 0; i < length; ++i) {
         codeword[i] = w[i];
@@ -36,7 +46,12 @@ Codeword &Codeword::operator=(const int w[])
     return *this;
 }
 
-int Codeword::weight()
+int Codeword::getLength() const
+{
+    return length;
+}
+
+int Codeword::weight() const
 {
     int weight = 0;
 
@@ -46,12 +61,7 @@ int Codeword::weight()
     return weight;
 }
 
-Codeword::Codeword()
+int &Codeword::operator[](int i) const
 {
-    length = 127;
-    codeword = (int *)malloc(length * sizeof(int));
-
-    for (int i = 0; i < length; ++i) {
-        codeword[i] = 0;
-    }
+    return codeword[i];
 }

@@ -123,33 +123,6 @@ ScienceWork/fast:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/build
 .PHONY : ScienceWork/fast
 
-BinaryWords.o: BinaryWords.cpp.o
-
-.PHONY : BinaryWords.o
-
-# target to build an object file
-BinaryWords.cpp.o:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/BinaryWords.cpp.o
-.PHONY : BinaryWords.cpp.o
-
-BinaryWords.i: BinaryWords.cpp.i
-
-.PHONY : BinaryWords.i
-
-# target to preprocess a source file
-BinaryWords.cpp.i:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/BinaryWords.cpp.i
-.PHONY : BinaryWords.cpp.i
-
-BinaryWords.s: BinaryWords.cpp.s
-
-.PHONY : BinaryWords.s
-
-# target to generate assembly for a file
-BinaryWords.cpp.s:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/BinaryWords.cpp.s
-.PHONY : BinaryWords.cpp.s
-
 Codeword.o: Codeword.cpp.o
 
 .PHONY : Codeword.o
@@ -231,6 +204,33 @@ MatrixReader.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/MatrixReader.cpp.s
 .PHONY : MatrixReader.cpp.s
 
+RangeSolver.o: RangeSolver.cpp.o
+
+.PHONY : RangeSolver.o
+
+# target to build an object file
+RangeSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o
+.PHONY : RangeSolver.cpp.o
+
+RangeSolver.i: RangeSolver.cpp.i
+
+.PHONY : RangeSolver.i
+
+# target to preprocess a source file
+RangeSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/RangeSolver.cpp.i
+.PHONY : RangeSolver.cpp.i
+
+RangeSolver.s: RangeSolver.cpp.s
+
+.PHONY : RangeSolver.s
+
+# target to generate assembly for a file
+RangeSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/RangeSolver.cpp.s
+.PHONY : RangeSolver.cpp.s
+
 Tests/Assert.o: Tests/Assert.cpp.o
 
 .PHONY : Tests/Assert.o
@@ -257,6 +257,33 @@ Tests/Assert.s: Tests/Assert.cpp.s
 Tests/Assert.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.s
 .PHONY : Tests/Assert.cpp.s
+
+Tests/CodewordsExtractorTest.o: Tests/CodewordsExtractorTest.cpp.o
+
+.PHONY : Tests/CodewordsExtractorTest.o
+
+# target to build an object file
+Tests/CodewordsExtractorTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o
+.PHONY : Tests/CodewordsExtractorTest.cpp.o
+
+Tests/CodewordsExtractorTest.i: Tests/CodewordsExtractorTest.cpp.i
+
+.PHONY : Tests/CodewordsExtractorTest.i
+
+# target to preprocess a source file
+Tests/CodewordsExtractorTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.i
+.PHONY : Tests/CodewordsExtractorTest.cpp.i
+
+Tests/CodewordsExtractorTest.s: Tests/CodewordsExtractorTest.cpp.s
+
+.PHONY : Tests/CodewordsExtractorTest.s
+
+# target to generate assembly for a file
+Tests/CodewordsExtractorTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.s
+.PHONY : Tests/CodewordsExtractorTest.cpp.s
 
 Tests/Readers/MatrixReaderTest.o: Tests/Readers/MatrixReaderTest.cpp.o
 
@@ -321,9 +348,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ScienceWork"
-	@echo "... BinaryWords.o"
-	@echo "... BinaryWords.i"
-	@echo "... BinaryWords.s"
 	@echo "... Codeword.o"
 	@echo "... Codeword.i"
 	@echo "... Codeword.s"
@@ -333,9 +357,15 @@ help:
 	@echo "... MatrixReader.o"
 	@echo "... MatrixReader.i"
 	@echo "... MatrixReader.s"
+	@echo "... RangeSolver.o"
+	@echo "... RangeSolver.i"
+	@echo "... RangeSolver.s"
 	@echo "... Tests/Assert.o"
 	@echo "... Tests/Assert.i"
 	@echo "... Tests/Assert.s"
+	@echo "... Tests/CodewordsExtractorTest.o"
+	@echo "... Tests/CodewordsExtractorTest.i"
+	@echo "... Tests/CodewordsExtractorTest.s"
 	@echo "... Tests/Readers/MatrixReaderTest.o"
 	@echo "... Tests/Readers/MatrixReaderTest.i"
 	@echo "... Tests/Readers/MatrixReaderTest.s"

@@ -5,7 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o"
   "CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o"
   "CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o"
-  "CMakeFiles/ScienceWork.dir/BinaryWords.cpp.o"
+  "CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o"
+  "CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o"
   "ScienceWork.pdb"
   "ScienceWork"
 )

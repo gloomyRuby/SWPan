@@ -17,8 +17,10 @@ public:
     Codeword(int _length);
     Codeword(const int *line);
 
-    int weight();
-    Codeword &operator+=(const int *w);
-    Codeword &operator=(const int w[]);
+    int weight() const;
+    int getLength() const;
+    Codeword &operator+=(const Codeword w);
+    Codeword &operator=(const Codeword w);
+    int &operator[](int i) const;
 };
 
