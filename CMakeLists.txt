@@ -3,5 +3,5 @@ project(ScienceWork)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Codeword.cpp Codeword.h MatrixReader.cpp MatrixReader.h CodewordsExtractor.cpp CodewordsExtractor.h Tests/Readers/MatrixReaderTest.cpp Tests/Readers/MatrixReaderTest.h Tests/Assert.cpp Tests/Assert.h Tests/CodewordsExtractorTest.cpp Tests/CodewordsExtractorTest.h RangeSolver.cpp RangeSolver.h)
+set(SOURCE_FILES main.cpp MatrixReader.cpp MatrixReader.h Tests/Readers/MatrixReaderTest.cpp Tests/Readers/MatrixReaderTest.h Tests/Assert.cpp Tests/Assert.h Algorithm/Codeword.cpp Algorithm/Codeword.h Algorithm/SpectrumSolver.cpp Algorithm/SpectrumSolver.h Tests/Algorithm/SpectrumSolverTest.cpp Tests/Algorithm/SpectrumSolverTest.h)
 add_executable(ScienceWork ${SOURCE_FILES})

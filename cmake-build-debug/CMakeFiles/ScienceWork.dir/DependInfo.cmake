@@ -4,12 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/rubylight/CLionProjects/ScienceWork/Codeword.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Codeword.cpp.o"
-  "/Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o"
-  "/Users/rubylight/CLionProjects/ScienceWork/RangeSolver.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o"
-  "/Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/main.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/main.cpp.o"
   )

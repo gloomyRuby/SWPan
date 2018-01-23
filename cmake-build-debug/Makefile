@@ -123,59 +123,59 @@ ScienceWork/fast:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/build
 .PHONY : ScienceWork/fast
 
-Codeword.o: Codeword.cpp.o
+Algorithm/Codeword.o: Algorithm/Codeword.cpp.o
 
-.PHONY : Codeword.o
-
-# target to build an object file
-Codeword.cpp.o:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Codeword.cpp.o
-.PHONY : Codeword.cpp.o
-
-Codeword.i: Codeword.cpp.i
-
-.PHONY : Codeword.i
-
-# target to preprocess a source file
-Codeword.cpp.i:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Codeword.cpp.i
-.PHONY : Codeword.cpp.i
-
-Codeword.s: Codeword.cpp.s
-
-.PHONY : Codeword.s
-
-# target to generate assembly for a file
-Codeword.cpp.s:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Codeword.cpp.s
-.PHONY : Codeword.cpp.s
-
-CodewordsExtractor.o: CodewordsExtractor.cpp.o
-
-.PHONY : CodewordsExtractor.o
+.PHONY : Algorithm/Codeword.o
 
 # target to build an object file
-CodewordsExtractor.cpp.o:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o
-.PHONY : CodewordsExtractor.cpp.o
+Algorithm/Codeword.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o
+.PHONY : Algorithm/Codeword.cpp.o
 
-CodewordsExtractor.i: CodewordsExtractor.cpp.i
+Algorithm/Codeword.i: Algorithm/Codeword.cpp.i
 
-.PHONY : CodewordsExtractor.i
+.PHONY : Algorithm/Codeword.i
 
 # target to preprocess a source file
-CodewordsExtractor.cpp.i:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.i
-.PHONY : CodewordsExtractor.cpp.i
+Algorithm/Codeword.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.i
+.PHONY : Algorithm/Codeword.cpp.i
 
-CodewordsExtractor.s: CodewordsExtractor.cpp.s
+Algorithm/Codeword.s: Algorithm/Codeword.cpp.s
 
-.PHONY : CodewordsExtractor.s
+.PHONY : Algorithm/Codeword.s
 
 # target to generate assembly for a file
-CodewordsExtractor.cpp.s:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.s
-.PHONY : CodewordsExtractor.cpp.s
+Algorithm/Codeword.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.s
+.PHONY : Algorithm/Codeword.cpp.s
+
+Algorithm/SpectrumSolver.o: Algorithm/SpectrumSolver.cpp.o
+
+.PHONY : Algorithm/SpectrumSolver.o
+
+# target to build an object file
+Algorithm/SpectrumSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o
+.PHONY : Algorithm/SpectrumSolver.cpp.o
+
+Algorithm/SpectrumSolver.i: Algorithm/SpectrumSolver.cpp.i
+
+.PHONY : Algorithm/SpectrumSolver.i
+
+# target to preprocess a source file
+Algorithm/SpectrumSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.i
+.PHONY : Algorithm/SpectrumSolver.cpp.i
+
+Algorithm/SpectrumSolver.s: Algorithm/SpectrumSolver.cpp.s
+
+.PHONY : Algorithm/SpectrumSolver.s
+
+# target to generate assembly for a file
+Algorithm/SpectrumSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.s
+.PHONY : Algorithm/SpectrumSolver.cpp.s
 
 MatrixReader.o: MatrixReader.cpp.o
 
@@ -204,32 +204,32 @@ MatrixReader.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/MatrixReader.cpp.s
 .PHONY : MatrixReader.cpp.s
 
-RangeSolver.o: RangeSolver.cpp.o
+Tests/Algorithm/SpectrumSolverTest.o: Tests/Algorithm/SpectrumSolverTest.cpp.o
 
-.PHONY : RangeSolver.o
+.PHONY : Tests/Algorithm/SpectrumSolverTest.o
 
 # target to build an object file
-RangeSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o
-.PHONY : RangeSolver.cpp.o
+Tests/Algorithm/SpectrumSolverTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o
+.PHONY : Tests/Algorithm/SpectrumSolverTest.cpp.o
 
-RangeSolver.i: RangeSolver.cpp.i
+Tests/Algorithm/SpectrumSolverTest.i: Tests/Algorithm/SpectrumSolverTest.cpp.i
 
-.PHONY : RangeSolver.i
+.PHONY : Tests/Algorithm/SpectrumSolverTest.i
 
 # target to preprocess a source file
-RangeSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/RangeSolver.cpp.i
-.PHONY : RangeSolver.cpp.i
+Tests/Algorithm/SpectrumSolverTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.i
+.PHONY : Tests/Algorithm/SpectrumSolverTest.cpp.i
 
-RangeSolver.s: RangeSolver.cpp.s
+Tests/Algorithm/SpectrumSolverTest.s: Tests/Algorithm/SpectrumSolverTest.cpp.s
 
-.PHONY : RangeSolver.s
+.PHONY : Tests/Algorithm/SpectrumSolverTest.s
 
 # target to generate assembly for a file
-RangeSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/RangeSolver.cpp.s
-.PHONY : RangeSolver.cpp.s
+Tests/Algorithm/SpectrumSolverTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.s
+.PHONY : Tests/Algorithm/SpectrumSolverTest.cpp.s
 
 Tests/Assert.o: Tests/Assert.cpp.o
 
@@ -257,33 +257,6 @@ Tests/Assert.s: Tests/Assert.cpp.s
 Tests/Assert.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.s
 .PHONY : Tests/Assert.cpp.s
-
-Tests/CodewordsExtractorTest.o: Tests/CodewordsExtractorTest.cpp.o
-
-.PHONY : Tests/CodewordsExtractorTest.o
-
-# target to build an object file
-Tests/CodewordsExtractorTest.cpp.o:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o
-.PHONY : Tests/CodewordsExtractorTest.cpp.o
-
-Tests/CodewordsExtractorTest.i: Tests/CodewordsExtractorTest.cpp.i
-
-.PHONY : Tests/CodewordsExtractorTest.i
-
-# target to preprocess a source file
-Tests/CodewordsExtractorTest.cpp.i:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.i
-.PHONY : Tests/CodewordsExtractorTest.cpp.i
-
-Tests/CodewordsExtractorTest.s: Tests/CodewordsExtractorTest.cpp.s
-
-.PHONY : Tests/CodewordsExtractorTest.s
-
-# target to generate assembly for a file
-Tests/CodewordsExtractorTest.cpp.s:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.s
-.PHONY : Tests/CodewordsExtractorTest.cpp.s
 
 Tests/Readers/MatrixReaderTest.o: Tests/Readers/MatrixReaderTest.cpp.o
 
@@ -348,24 +321,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ScienceWork"
-	@echo "... Codeword.o"
-	@echo "... Codeword.i"
-	@echo "... Codeword.s"
-	@echo "... CodewordsExtractor.o"
-	@echo "... CodewordsExtractor.i"
-	@echo "... CodewordsExtractor.s"
+	@echo "... Algorithm/Codeword.o"
+	@echo "... Algorithm/Codeword.i"
+	@echo "... Algorithm/Codeword.s"
+	@echo "... Algorithm/SpectrumSolver.o"
+	@echo "... Algorithm/SpectrumSolver.i"
+	@echo "... Algorithm/SpectrumSolver.s"
 	@echo "... MatrixReader.o"
 	@echo "... MatrixReader.i"
 	@echo "... MatrixReader.s"
-	@echo "... RangeSolver.o"
-	@echo "... RangeSolver.i"
-	@echo "... RangeSolver.s"
+	@echo "... Tests/Algorithm/SpectrumSolverTest.o"
+	@echo "... Tests/Algorithm/SpectrumSolverTest.i"
+	@echo "... Tests/Algorithm/SpectrumSolverTest.s"
 	@echo "... Tests/Assert.o"
 	@echo "... Tests/Assert.i"
 	@echo "... Tests/Assert.s"
-	@echo "... Tests/CodewordsExtractorTest.o"
-	@echo "... Tests/CodewordsExtractorTest.i"
-	@echo "... Tests/CodewordsExtractorTest.s"
 	@echo "... Tests/Readers/MatrixReaderTest.o"
 	@echo "... Tests/Readers/MatrixReaderTest.i"
 	@echo "... Tests/Readers/MatrixReaderTest.s"

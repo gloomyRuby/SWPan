@@ -6,31 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/rubylight/CLionProjects/ScienceWork/BinaryWords.cpp
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp
+Codeword.h
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
 cstdlib
 -
-BinaryWords.h
-/Users/rubylight/CLionProjects/ScienceWork/BinaryWords.h
 
-/Users/rubylight/CLionProjects/ScienceWork/BinaryWords.h
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
 
-/Users/rubylight/CLionProjects/ScienceWork/Codeword.cpp
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp
+SpectrumSolver.h
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h
+Codeword.h
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h
 cstdlib
 -
-Codeword.h
-/Users/rubylight/CLionProjects/ScienceWork/Codeword.h
-
-/Users/rubylight/CLionProjects/ScienceWork/Codeword.h
-vector
--
-
-/Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.cpp
-CodewordsExtractor.h
-/Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.h
-
-/Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.h
-Codeword.h
-/Users/rubylight/CLionProjects/ScienceWork/Codeword.h
 
 /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp
 MatrixReader.h
@@ -43,8 +35,20 @@ fstream
 /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
 vector
 -
-Codeword.h
-/Users/rubylight/CLionProjects/ScienceWork/Codeword.h
+Algorithm/Codeword.h
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp
+SpectrumSolverTest.h
+/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.h
+../Assert.h
+/Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.h
+../../Algorithm/Codeword.h
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.h
+../../Algorithm/SpectrumSolver.h
+/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h
 
 /Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.cpp
 Assert.h
@@ -75,4 +79,6 @@ MatrixReader.h
 /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
 Tests/Readers/MatrixReaderTest.h
 /Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.h
+Tests/Algorithm/SpectrumSolverTest.h
+/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.h
 

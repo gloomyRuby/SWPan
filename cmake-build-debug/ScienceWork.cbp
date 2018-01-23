@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Codeword.cpp">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Codeword.h">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.cpp">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.h">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp">
@@ -98,22 +98,16 @@
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/RangeSolver.cpp">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/RangeSolver.h">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.h">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.h">
-			<Option target="ScienceWork"/>
-		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.cpp">
-			<Option target="ScienceWork"/>
-		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.h">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.cpp">

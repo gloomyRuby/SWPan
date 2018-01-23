@@ -81,33 +81,9 @@ CMakeFiles/ScienceWork.dir/main.cpp.o.provides: CMakeFiles/ScienceWork.dir/main.
 CMakeFiles/ScienceWork.dir/main.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/main.cpp.o
 
 
-CMakeFiles/ScienceWork.dir/Codeword.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
-CMakeFiles/ScienceWork.dir/Codeword.cpp.o: ../Codeword.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScienceWork.dir/Codeword.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Codeword.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Codeword.cpp
-
-CMakeFiles/ScienceWork.dir/Codeword.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Codeword.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Codeword.cpp > CMakeFiles/ScienceWork.dir/Codeword.cpp.i
-
-CMakeFiles/ScienceWork.dir/Codeword.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Codeword.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Codeword.cpp -o CMakeFiles/ScienceWork.dir/Codeword.cpp.s
-
-CMakeFiles/ScienceWork.dir/Codeword.cpp.o.requires:
-
-.PHONY : CMakeFiles/ScienceWork.dir/Codeword.cpp.o.requires
-
-CMakeFiles/ScienceWork.dir/Codeword.cpp.o.provides: CMakeFiles/ScienceWork.dir/Codeword.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Codeword.cpp.o.provides.build
-.PHONY : CMakeFiles/ScienceWork.dir/Codeword.cpp.o.provides
-
-CMakeFiles/ScienceWork.dir/Codeword.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Codeword.cpp.o
-
-
 CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
 CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o: ../MatrixReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp
 
 CMakeFiles/ScienceWork.dir/MatrixReader.cpp.i: cmake_force
@@ -129,33 +105,9 @@ CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.provides: CMakeFiles/ScienceWork.d
 CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o
 
 
-CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
-CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o: ../CodewordsExtractor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.cpp
-
-CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.cpp > CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.i
-
-CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/CodewordsExtractor.cpp -o CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.s
-
-CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.requires:
-
-.PHONY : CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.requires
-
-CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.provides: CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.provides.build
-.PHONY : CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.provides
-
-CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o
-
-
 CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
 CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: ../Tests/Readers/MatrixReaderTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.cpp
 
 CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.i: cmake_force
@@ -179,7 +131,7 @@ CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o.provides.build: 
 
 CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
 CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o: ../Tests/Assert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.cpp
 
 CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.i: cmake_force
@@ -201,79 +153,101 @@ CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o.provides: CMakeFiles/ScienceWork.d
 CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o
 
 
-CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
-CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o: ../Tests/CodewordsExtractorTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.cpp
+CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o: ../Algorithm/Codeword.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp
 
-CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.cpp > CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.i
+CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp > CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.i
 
-CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Tests/CodewordsExtractorTest.cpp -o CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.s
+CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp -o CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.s
 
-CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.requires:
+CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.requires:
 
-.PHONY : CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.requires
+.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.requires
 
-CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.provides: CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.provides.build
-.PHONY : CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.provides
+CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.provides: CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.provides
 
-CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o
+CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o
 
 
-CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
-CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o: ../RangeSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/RangeSolver.cpp
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/SpectrumSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp
 
-CMakeFiles/ScienceWork.dir/RangeSolver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/RangeSolver.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/RangeSolver.cpp > CMakeFiles/ScienceWork.dir/RangeSolver.cpp.i
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp > CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.i
 
-CMakeFiles/ScienceWork.dir/RangeSolver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/RangeSolver.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/RangeSolver.cpp -o CMakeFiles/ScienceWork.dir/RangeSolver.cpp.s
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp -o CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.s
 
-CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.requires:
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.requires:
 
-.PHONY : CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.requires
+.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.requires
 
-CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.provides: CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.provides.build
-.PHONY : CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.provides
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.provides: CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.provides
 
-CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o
+
+
+CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o: ../Tests/Algorithm/SpectrumSolverTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp
+
+CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp > CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.i
+
+CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp -o CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.s
+
+CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.requires:
+
+.PHONY : CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.requires
+
+CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.provides: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.provides
+
+CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o
 
 
 # Object files for target ScienceWork
 ScienceWork_OBJECTS = \
 "CMakeFiles/ScienceWork.dir/main.cpp.o" \
-"CMakeFiles/ScienceWork.dir/Codeword.cpp.o" \
 "CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o" \
-"CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o" \
-"CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o" \
-"CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o"
+"CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o" \
+"CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o" \
+"CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o"
 
 # External object files for target ScienceWork
 ScienceWork_EXTERNAL_OBJECTS =
 
 ScienceWork: CMakeFiles/ScienceWork.dir/main.cpp.o
-ScienceWork: CMakeFiles/ScienceWork.dir/Codeword.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o
-ScienceWork: CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o
-ScienceWork: CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o
-ScienceWork: CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/build.make
 ScienceWork: CMakeFiles/ScienceWork.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ScienceWork"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ScienceWork"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScienceWork.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -282,13 +256,12 @@ CMakeFiles/ScienceWork.dir/build: ScienceWork
 .PHONY : CMakeFiles/ScienceWork.dir/build
 
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/main.cpp.o.requires
-CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Codeword.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.requires
-CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/CodewordsExtractor.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o.requires
-CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/CodewordsExtractorTest.cpp.o.requires
-CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/RangeSolver.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.requires
 
 .PHONY : CMakeFiles/ScienceWork.dir/requires
 
