@@ -24,8 +24,7 @@ Codeword::Codeword(const int line[])
 Codeword &Codeword::operator+=(const int w[])
 {
     for (int i = 0; i < length; i++) {
-        codeword[i] += w[i];
-        codeword[i] = codeword[i] % 2;
+        codeword[i] ^= w[i];
     }
     return *this;
 }

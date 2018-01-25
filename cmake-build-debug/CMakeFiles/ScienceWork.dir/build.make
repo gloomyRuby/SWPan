@@ -81,28 +81,28 @@ CMakeFiles/ScienceWork.dir/main.cpp.o.provides: CMakeFiles/ScienceWork.dir/main.
 CMakeFiles/ScienceWork.dir/main.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/main.cpp.o
 
 
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o: ../MatrixReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o: ../Readers/MatrixReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp
 
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/MatrixReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp > CMakeFiles/ScienceWork.dir/MatrixReader.cpp.i
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp > CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.i
 
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/MatrixReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp -o CMakeFiles/ScienceWork.dir/MatrixReader.cpp.s
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp -o CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.s
 
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.requires:
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.requires:
 
-.PHONY : CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.requires
+.PHONY : CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.requires
 
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.provides: CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.provides.build
-.PHONY : CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.provides
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.provides: CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.provides
 
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o
 
 
 CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
@@ -225,29 +225,107 @@ CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.provides: CM
 CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o
 
 
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o: ../Writers/SpectrumWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.cpp
+
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.cpp > CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.i
+
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.cpp -o CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.s
+
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.requires:
+
+.PHONY : CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.requires
+
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.provides: CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.provides
+
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o
+
+
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o: ../Readers/FileMatrixReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp
+
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp > CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.i
+
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp -o CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.s
+
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.requires:
+
+.PHONY : CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.requires
+
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.provides: CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.provides
+
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o
+
+
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o: ../Writers/FileSpectrumWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.cpp
+
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.cpp > CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.i
+
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.cpp -o CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.s
+
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.requires:
+
+.PHONY : CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.requires
+
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.provides: CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.provides
+
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o
+
+
 # Object files for target ScienceWork
 ScienceWork_OBJECTS = \
 "CMakeFiles/ScienceWork.dir/main.cpp.o" \
-"CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o" \
+"CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o" \
-"CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o"
+"CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o" \
+"CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o" \
+"CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o" \
+"CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o"
 
 # External object files for target ScienceWork
 ScienceWork_EXTERNAL_OBJECTS =
 
 ScienceWork: CMakeFiles/ScienceWork.dir/main.cpp.o
-ScienceWork: CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/build.make
 ScienceWork: CMakeFiles/ScienceWork.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ScienceWork"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ScienceWork"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScienceWork.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -256,12 +334,15 @@ CMakeFiles/ScienceWork.dir/build: ScienceWork
 .PHONY : CMakeFiles/ScienceWork.dir/build
 
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/main.cpp.o.requires
-CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.requires
 
 .PHONY : CMakeFiles/ScienceWork.dir/requires
 

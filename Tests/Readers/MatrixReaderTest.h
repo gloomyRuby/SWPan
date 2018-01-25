@@ -8,7 +8,7 @@
 #include <string>
 #include <sstream>
 #include <zconf.h>
-#include "../../MatrixReader.h"
+#include "../../Readers/MatrixReader.h"
 #include "../Assert.h"
 
 

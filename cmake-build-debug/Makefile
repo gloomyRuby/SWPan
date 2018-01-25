@@ -177,32 +177,59 @@ Algorithm/SpectrumSolver.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.s
 .PHONY : Algorithm/SpectrumSolver.cpp.s
 
-MatrixReader.o: MatrixReader.cpp.o
+Readers/FileMatrixReader.o: Readers/FileMatrixReader.cpp.o
 
-.PHONY : MatrixReader.o
+.PHONY : Readers/FileMatrixReader.o
 
 # target to build an object file
-MatrixReader.cpp.o:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o
-.PHONY : MatrixReader.cpp.o
+Readers/FileMatrixReader.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o
+.PHONY : Readers/FileMatrixReader.cpp.o
 
-MatrixReader.i: MatrixReader.cpp.i
+Readers/FileMatrixReader.i: Readers/FileMatrixReader.cpp.i
 
-.PHONY : MatrixReader.i
+.PHONY : Readers/FileMatrixReader.i
 
 # target to preprocess a source file
-MatrixReader.cpp.i:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/MatrixReader.cpp.i
-.PHONY : MatrixReader.cpp.i
+Readers/FileMatrixReader.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.i
+.PHONY : Readers/FileMatrixReader.cpp.i
 
-MatrixReader.s: MatrixReader.cpp.s
+Readers/FileMatrixReader.s: Readers/FileMatrixReader.cpp.s
 
-.PHONY : MatrixReader.s
+.PHONY : Readers/FileMatrixReader.s
 
 # target to generate assembly for a file
-MatrixReader.cpp.s:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/MatrixReader.cpp.s
-.PHONY : MatrixReader.cpp.s
+Readers/FileMatrixReader.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.s
+.PHONY : Readers/FileMatrixReader.cpp.s
+
+Readers/MatrixReader.o: Readers/MatrixReader.cpp.o
+
+.PHONY : Readers/MatrixReader.o
+
+# target to build an object file
+Readers/MatrixReader.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o
+.PHONY : Readers/MatrixReader.cpp.o
+
+Readers/MatrixReader.i: Readers/MatrixReader.cpp.i
+
+.PHONY : Readers/MatrixReader.i
+
+# target to preprocess a source file
+Readers/MatrixReader.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.i
+.PHONY : Readers/MatrixReader.cpp.i
+
+Readers/MatrixReader.s: Readers/MatrixReader.cpp.s
+
+.PHONY : Readers/MatrixReader.s
+
+# target to generate assembly for a file
+Readers/MatrixReader.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.s
+.PHONY : Readers/MatrixReader.cpp.s
 
 Tests/Algorithm/SpectrumSolverTest.o: Tests/Algorithm/SpectrumSolverTest.cpp.o
 
@@ -285,6 +312,60 @@ Tests/Readers/MatrixReaderTest.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.s
 .PHONY : Tests/Readers/MatrixReaderTest.cpp.s
 
+Writers/FileSpectrumWriter.o: Writers/FileSpectrumWriter.cpp.o
+
+.PHONY : Writers/FileSpectrumWriter.o
+
+# target to build an object file
+Writers/FileSpectrumWriter.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o
+.PHONY : Writers/FileSpectrumWriter.cpp.o
+
+Writers/FileSpectrumWriter.i: Writers/FileSpectrumWriter.cpp.i
+
+.PHONY : Writers/FileSpectrumWriter.i
+
+# target to preprocess a source file
+Writers/FileSpectrumWriter.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.i
+.PHONY : Writers/FileSpectrumWriter.cpp.i
+
+Writers/FileSpectrumWriter.s: Writers/FileSpectrumWriter.cpp.s
+
+.PHONY : Writers/FileSpectrumWriter.s
+
+# target to generate assembly for a file
+Writers/FileSpectrumWriter.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.s
+.PHONY : Writers/FileSpectrumWriter.cpp.s
+
+Writers/SpectrumWriter.o: Writers/SpectrumWriter.cpp.o
+
+.PHONY : Writers/SpectrumWriter.o
+
+# target to build an object file
+Writers/SpectrumWriter.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o
+.PHONY : Writers/SpectrumWriter.cpp.o
+
+Writers/SpectrumWriter.i: Writers/SpectrumWriter.cpp.i
+
+.PHONY : Writers/SpectrumWriter.i
+
+# target to preprocess a source file
+Writers/SpectrumWriter.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.i
+.PHONY : Writers/SpectrumWriter.cpp.i
+
+Writers/SpectrumWriter.s: Writers/SpectrumWriter.cpp.s
+
+.PHONY : Writers/SpectrumWriter.s
+
+# target to generate assembly for a file
+Writers/SpectrumWriter.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.s
+.PHONY : Writers/SpectrumWriter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -327,9 +408,12 @@ help:
 	@echo "... Algorithm/SpectrumSolver.o"
 	@echo "... Algorithm/SpectrumSolver.i"
 	@echo "... Algorithm/SpectrumSolver.s"
-	@echo "... MatrixReader.o"
-	@echo "... MatrixReader.i"
-	@echo "... MatrixReader.s"
+	@echo "... Readers/FileMatrixReader.o"
+	@echo "... Readers/FileMatrixReader.i"
+	@echo "... Readers/FileMatrixReader.s"
+	@echo "... Readers/MatrixReader.o"
+	@echo "... Readers/MatrixReader.i"
+	@echo "... Readers/MatrixReader.s"
 	@echo "... Tests/Algorithm/SpectrumSolverTest.o"
 	@echo "... Tests/Algorithm/SpectrumSolverTest.i"
 	@echo "... Tests/Algorithm/SpectrumSolverTest.s"
@@ -339,6 +423,12 @@ help:
 	@echo "... Tests/Readers/MatrixReaderTest.o"
 	@echo "... Tests/Readers/MatrixReaderTest.i"
 	@echo "... Tests/Readers/MatrixReaderTest.s"
+	@echo "... Writers/FileSpectrumWriter.o"
+	@echo "... Writers/FileSpectrumWriter.i"
+	@echo "... Writers/FileSpectrumWriter.s"
+	@echo "... Writers/SpectrumWriter.o"
+	@echo "... Writers/SpectrumWriter.i"
+	@echo "... Writers/SpectrumWriter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

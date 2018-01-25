@@ -17,7 +17,6 @@ int **MatrixReader::getGeneratorMatrix(std::istream &input) const
         matrix[i] = (int*)malloc(k * sizeof(int));
     }
 
-
     for (int i = 0; i < k; i++) {
         for (int j = 0; j < n; j++) {
             int tmp;

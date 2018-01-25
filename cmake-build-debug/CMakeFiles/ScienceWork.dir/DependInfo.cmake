@@ -6,10 +6,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o"
-  "/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/main.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

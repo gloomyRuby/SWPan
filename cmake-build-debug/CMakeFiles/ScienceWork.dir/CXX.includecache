@@ -24,18 +24,28 @@ Codeword.h
 cstdlib
 -
 
-/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp
+/Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp
+FileMatrixReader.h
+/Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.h
 MatrixReader.h
-/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
+/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
+fstream
+-
+
+/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp
+MatrixReader.h
+/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
 iostream
 -
 fstream
 -
 
-/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
+/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
 vector
 -
-Algorithm/Codeword.h
+../Algorithm/Codeword.h
 /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
 
 /Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp
@@ -67,18 +77,40 @@ sstream
 -
 zconf.h
 -
-../../MatrixReader.h
-/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
+../../Readers/MatrixReader.h
+/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
 ../Assert.h
 /Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.cpp
+fstream
+-
+FileSpectrumWriter.h
+/Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.cpp
+SpectrumWriter.h
+/Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.h
+
+/Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.h
+fstream
+-
+iostream
+-
 
 /Users/rubylight/CLionProjects/ScienceWork/main.cpp
 iostream
 -
-MatrixReader.h
-/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
+Readers/MatrixReader.h
+/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
 Tests/Readers/MatrixReaderTest.h
 /Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.h
 Tests/Algorithm/SpectrumSolverTest.h
 /Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.h
+Writers/SpectrumWriter.h
+/Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.h
+Writers/FileSpectrumWriter.h
+/Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.h
 

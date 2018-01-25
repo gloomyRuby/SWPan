@@ -8,10 +8,15 @@ CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h
-CMakeFiles/ScienceWork.dir/MatrixReader.cpp.o
+CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
- /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp
- /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
+ /Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp
+ /Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.h
+ /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
+CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o
+ /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
+ /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp
+ /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
 CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h
@@ -23,15 +28,23 @@ CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o
  /Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.h
 CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
- /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
+ /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
  /Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.h
  /Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.cpp
  /Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.h
+CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o
+ /Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.cpp
+ /Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.h
+CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o
+ /Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.cpp
+ /Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.h
 CMakeFiles/ScienceWork.dir/main.cpp.o
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h
  /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h
- /Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h
+ /Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h
  /Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.h
  /Users/rubylight/CLionProjects/ScienceWork/Tests/Assert.h
  /Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.h
+ /Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.h
+ /Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.h
  /Users/rubylight/CLionProjects/ScienceWork/main.cpp

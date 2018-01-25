@@ -6,7 +6,7 @@
 #include "Codeword.h"
 
 int binpow(int n);
-void binaryWordCreator(const int &k, Codeword &binaryWord);
+void binaryWordCreator(const int k, Codeword &binaryWord);
 
 
 int *SpectrumSolver::getSpectrum(int **GMatrix, const int n, const int k) const
@@ -53,7 +53,7 @@ int binpow(int n)
     return res;
 }
 
-void binaryWordCreator(const int &k, Codeword &binaryWord)
+void binaryWordCreator(const int k, Codeword &binaryWord)
 {
     for (int j = k - 1; j >= 0; j--) {
         if (binaryWord[j] == 0) {

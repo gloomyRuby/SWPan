@@ -92,10 +92,16 @@
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.h">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.cpp">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/MatrixReader.h">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.h">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.h">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Algorithm/SpectrumSolverTest.cpp">
@@ -114,6 +120,18 @@
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Tests/Readers/MatrixReaderTest.h">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.cpp">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Writers/FileSpectrumWriter.h">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.cpp">
+			<Option target="ScienceWork"/>
+		</Unit>
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Writers/SpectrumWriter.h">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/main.cpp">

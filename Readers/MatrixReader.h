@@ -6,7 +6,7 @@
 #pragma once
 
 #include <vector>
-#include "Algorithm/Codeword.h"
+#include "../Algorithm/Codeword.h"
 
 
 class MatrixReader
