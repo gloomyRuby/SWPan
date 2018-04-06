@@ -6,6 +6,10 @@
 #include <cstdlib>
 
 
+int sumInColumn(int *column, int k);
+
+void swap(int *a, int *b, int k);
+
 Codeword::Codeword(const int _length)
 {
     length = _length;
@@ -64,5 +68,3 @@ Codeword &Codeword::setToZero()
     }
     return *this;
 }
-
-

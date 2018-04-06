@@ -2,7 +2,6 @@
 // Created by Oysha on 22/01/2018.
 //
 
-
 #pragma once
 
 
@@ -32,4 +31,3 @@ inline bool operator==(const Codeword &w1, const int *w2)
 
     return count == w1.getLength();
 };
-

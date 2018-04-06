@@ -4,6 +4,9 @@
 CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o: ../Algorithm/Codeword.cpp
 CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o: ../Algorithm/Codeword.h
 
+CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o: ../Algorithm/OSD.cpp
+CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o: ../Algorithm/OSD.h
+
 CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/Codeword.h
 CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/SpectrumSolver.cpp
 CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/SpectrumSolver.h

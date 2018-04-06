@@ -150,6 +150,33 @@ Algorithm/Codeword.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.s
 .PHONY : Algorithm/Codeword.cpp.s
 
+Algorithm/OSD.o: Algorithm/OSD.cpp.o
+
+.PHONY : Algorithm/OSD.o
+
+# target to build an object file
+Algorithm/OSD.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o
+.PHONY : Algorithm/OSD.cpp.o
+
+Algorithm/OSD.i: Algorithm/OSD.cpp.i
+
+.PHONY : Algorithm/OSD.i
+
+# target to preprocess a source file
+Algorithm/OSD.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.i
+.PHONY : Algorithm/OSD.cpp.i
+
+Algorithm/OSD.s: Algorithm/OSD.cpp.s
+
+.PHONY : Algorithm/OSD.s
+
+# target to generate assembly for a file
+Algorithm/OSD.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.s
+.PHONY : Algorithm/OSD.cpp.s
+
 Algorithm/SpectrumSolver.o: Algorithm/SpectrumSolver.cpp.o
 
 .PHONY : Algorithm/SpectrumSolver.o
@@ -405,6 +432,9 @@ help:
 	@echo "... Algorithm/Codeword.o"
 	@echo "... Algorithm/Codeword.i"
 	@echo "... Algorithm/Codeword.s"
+	@echo "... Algorithm/OSD.o"
+	@echo "... Algorithm/OSD.i"
+	@echo "... Algorithm/OSD.s"
 	@echo "... Algorithm/SpectrumSolver.o"
 	@echo "... Algorithm/SpectrumSolver.i"
 	@echo "... Algorithm/SpectrumSolver.s"

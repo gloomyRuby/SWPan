@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o"
   "CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o"
   "CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o"
+  "CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o"
   "ScienceWork.pdb"
   "ScienceWork"
 )
