@@ -3,7 +3,6 @@
 //
 
 #include "Codeword.h"
-#include <cstdlib>
 
 
 int sumInColumn(int *column, int k);
@@ -13,9 +12,6 @@ void swap(int *a, int *b, int k);
 Codeword::Codeword(const int _length)
 {
     length = _length;
-    codeword = (int*)malloc(length * (sizeof(int)));
-    for (int i = 0; i < length; i++)
-        codeword[i] = 0;
 }
 
 Codeword::Codeword(const int line[])
@@ -56,7 +52,7 @@ int Codeword::weight() const
     return weight;
 }
 
-int &Codeword::operator[](int i) const
+int &Codeword::operator[](int i)
 {
     return codeword[i];
 }

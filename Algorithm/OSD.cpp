@@ -5,7 +5,7 @@
 #include "OSD.h"
 
 
-void switch_column_I(int GG[128][128], int Gg[128][128], double R[128], int permutation_R[128], int permutation_final[128], int K, int N)
+void switch_column_I(int GG[128][128], int Gg[128][128], double R[128], int permutation_R[128], int permutation_final[128], int K, int N);
 
 void switch_vector(double R[128], int permutation[128], int length, int N);
 
@@ -22,10 +22,10 @@ void order(int **Gg_t, int n, int k, double R[128], double out_D[128])
     double abs_R[N], C[128][2];
     int Dd[N],DD[N],GG[128][128],i,j,Gg[128][128];
     int permutation_final[128],permutation_I[128],permutation_R[128];
-    double zero[K],fabs();
+    double zero[K];
     void peterson_I(),quick_sort_track();
     void
-    switch_column_I(int pInt[128][128], int pInt1[128][128], double pDouble[128], int pInt2[128], int pInt3[128], int i1,
+    ::switch_column_I(int pInt[128][128], int pInt1[128][128], double pDouble[128], int pInt2[128], int pInt3[128], int i1,
                         int i2);
     void switch_vector(),switch_matrix();
 
@@ -41,13 +41,13 @@ void order(int **Gg_t, int n, int k, double R[128], double out_D[128])
         permutation_R[i] = i;
     }
 
-    quick_sort_track(abs_R, permutation_R, 0, N - 1);
+    ::quick_sort_track(abs_R, permutation_R, 0, N - 1);
 
-    switch_vector(R, permutation_R, N - 1, N);
+    ::switch_vector(R, permutation_R, N - 1, N);
 
-    switch_matrix(Gg, permutation_R, K - 1, N - 1, K, N);
+    ::switch_matrix(Gg, permutation_R, K - 1, N - 1, K, N);
 
-    peterson_I(Gg, zero, K , N);
+    ::peterson_I(Gg, zero, K , N);
 
     for (i = 0; i < K; i++) {
         for (j = 0; j < N; j++) {
@@ -55,7 +55,7 @@ void order(int **Gg_t, int n, int k, double R[128], double out_D[128])
         }
     }
 
-    switch_column_I(GG, Gg, R, permutation_R, permutation_final, K, N);
+    ::switch_column_I(GG, Gg, R, permutation_R, permutation_final, K, N);
 
     for (i = 0; i < N; i++) {
         C[i][0] = (R[i] - 1.0) * (R[i] - 1.0);

@@ -19,6 +19,12 @@ OSD.h
 /Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.h
 
 /Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.h
+cmath
+-
+ctime
+-
+limits
+-
 
 /Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp
 SpectrumSolver.h

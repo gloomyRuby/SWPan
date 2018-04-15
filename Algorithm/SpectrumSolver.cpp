@@ -1,66 +1,43 @@
 //
-// Created by Oysha on 23/01/2018.
+// Created by Oysha on 15/04/2018.
 //
 
 #include "SpectrumSolver.h"
 #include "Codeword.h"
 
-int binpow(int n);
-void binaryWordCreator(const int k, Codeword &binaryWord);
 
+int grayCode(long long &gray, long long &i);
+
+int vectorWeight(long long int i);
 
 int *SpectrumSolver::getSpectrum(int **GMatrix, const int n, const int k) const
 {
-    int *spectrum = (int*)calloc(n + 1, sizeof(int));
-    for (int i = 0; i <= n; ++i) {
-        spectrum[i] = 0;
-    }
-
+    int spectrum[129] = { 0 };
+    long long counter = (1LL << k) - 1;
     Codeword codeword = Codeword(n);
-    Codeword binaryWord = Codeword(k);
-    int count = binpow(k);
 
-    for (int i = 0; i < count; i++) {
-        binaryWordCreator(k, binaryWord);
-        for (int l = k - 1; l >= 0; l--) {
-            if (binaryWord[l] != 0) {
-                codeword += GMatrix[l];
-            }
-        }
-        int weight = codeword.weight();
-        spectrum[weight]++;
-        codeword.setToZero();
+    for (long long i = 0, gray = 0; i < counter; ) {
+        codeword ^= GMatrix[grayCode(gray, i)];
+        spectrum[codeword.weight()]++;
     }
 
     return spectrum;
 }
 
-int binpow(int n)
+int grayCode(long long &gray, long long &i)
 {
-    int res = 1;
-    int a = 2;
-    while (n) {
-        if (n & 1) {
-            res *= a;
-            --n;
-        }
-        else {
-            a *= a;
-            n >>= 1;
-        }
-    }
-    res--;
-    return res;
+    i++;
+    long long delta = i & (~i + 1);
+    gray ^= delta;
+    return vectorWeight(delta - 1);
 }
 
-void binaryWordCreator(const int k, Codeword &binaryWord)
+int vectorWeight(long long int i)
 {
-    for (int j = k - 1; j >= 0; j--) {
-        if (binaryWord[j] == 0) {
-            binaryWord[j] = 1;
-            break;
-        } else {
-            binaryWord[j] = 0;
-        }
+    int count = 0;
+    while (i) {
+        count += i & 1;
+        i >>= 1;
     }
+    return count;
 }
