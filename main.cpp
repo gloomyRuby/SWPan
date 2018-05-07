@@ -1,23 +1,25 @@
 #include <iostream>
-#include "Readers/MatrixReader.h"
-#include "Tests/Readers/MatrixReaderTest.h"
-#include "Tests/Algorithm/SpectrumSolverTest.h"
-#include "Writers/SpectrumWriter.h"
-#include "Writers/FileSpectrumWriter.h"
+#include "Algorithm/Matrix.h"
+#include <ctime>
 
+int main() {
+    int k;
+    std::cin >> k;
 
-int main()
-{
-    std::string data("3 2\n 0 1 1\n 1 0 1\n");
-    std::istringstream input(data);
-    MatrixReader read;
-    int **matrix = read.getGeneratorMatrix(input);
+    clock_t begin = clock();
+    Matrix m(k);
+    clock_t end = clock();
+    double time = (double)(end - begin) / CLOCKS_PER_SEC;
 
-    SpectrumSolver spectrum;
-    int * sp = spectrum.getSpectrum(matrix, 3, 2);
-
-    FileSpectrumWriter spectrumWriter;
-    spectrumWriter.writeSpectrumInFile(sp, 4);
+    std::cout.precision(3);
+    std::cout << "k\tn\td\ttime\n";
+    for (int i = k; i < 110; ++i) {
+        std::cout << k << '\t' << i << '\t' << m.getMinDist() << '\t' << time << '\n';
+        begin = clock();
+        m.addRow();
+        end = clock();
+        time = (double)(end - begin) / CLOCKS_PER_SEC;
+    }
 
     return 0;
 }

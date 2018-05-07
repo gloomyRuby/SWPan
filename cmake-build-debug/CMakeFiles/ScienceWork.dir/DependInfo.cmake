@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o"
-  "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o"
+  "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Matrix.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Readers/FileMatrixReader.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o"
   "/Users/rubylight/CLionProjects/ScienceWork/Readers/MatrixReader.cpp" "/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o"

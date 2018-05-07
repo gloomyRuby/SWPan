@@ -1,43 +1,38 @@
 //
-// Created by Oysha on 15/04/2018.
+// Created by Oysha on 23/01/2018.
 //
 
-#include "SpectrumSolver.h"
-#include "Codeword.h"
+#include "Matrix.h"
 
 
-int grayCode(long long &gray, long long &i);
-
-int vectorWeight(long long int i);
-
-int *SpectrumSolver::getSpectrum(int **GMatrix, const int n, const int k) const
+void SpectrumSolver::getSpectrum(Matrix &gMatrix)
 {
-    int spectrum[129] = { 0 };
-    long long counter = (1LL << k) - 1;
+    int k = gMatrix.getK();
+    int n = gMatrix.getN();
+
+    gMatrix.sptr[0] = 1;
+    for (int i = 1; i <= n; ++i) {
+        gMatrix.sptr[i] = 0;
+    }
+
     Codeword codeword = Codeword(n);
+    Codeword binaryWord = Codeword(k);
 
-    for (long long i = 0, gray = 0; i < counter; ) {
-        codeword ^= GMatrix[grayCode(gray, i)];
-        spectrum[codeword.weight()]++;
+    for (Int128 i(k); i != 0; --i) {
+        binaryWordCreator(i, binaryWord);
+        for (int j = 0; j < k; ++j) {
+            if (binaryWord[j] == 1)
+                generateWord(codeword, gMatrix, j, n);
+        }
+        gMatrix.sptr[codeword.weight()]++;
+        codeword.setToZero();
+        binaryWord.setToZero();
     }
-
-    return spectrum;
 }
 
-int grayCode(long long &gray, long long &i)
+void SpectrumSolver::generateWord(Codeword &codeword, Matrix &m, int line, int length)
 {
-    i++;
-    long long delta = i & (~i + 1);
-    gray ^= delta;
-    return vectorWeight(delta - 1);
-}
-
-int vectorWeight(long long int i)
-{
-    int count = 0;
-    while (i) {
-        count += i & 1;
-        i >>= 1;
+    for (int i = 0; i < length; i++) {
+        codeword[i] ^= m.getByIndex(line, i);
     }
-    return count;
 }

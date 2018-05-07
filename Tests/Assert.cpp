@@ -1,12 +1,12 @@
+////
+//// Created by Oysha on 20/01/2018.
+////
 //
-// Created by Oysha on 20/01/2018.
+//#include "Assert.h"
 //
-
-#include "Assert.h"
-
-void Assert::assertTrue(bool expression)
-{
-    if (!expression) {
-        throw Failure();
-    }
-}
+//void Assert::assertTrue(bool expression)
+//{
+//    if (!expression) {
+//        throw Failure();
+//    }
+//}

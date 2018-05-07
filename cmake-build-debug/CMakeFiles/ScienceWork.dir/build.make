@@ -297,28 +297,28 @@ CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.provides: CMakeFiles
 CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o
 
 
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o: ../Algorithm/OSD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.cpp
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o: CMakeFiles/ScienceWork.dir/flags.make
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o: ../Algorithm/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o -c /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Matrix.cpp
 
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.cpp > CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.i
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Matrix.cpp > CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.i
 
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.cpp -o CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.s
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rubylight/CLionProjects/ScienceWork/Algorithm/Matrix.cpp -o CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.s
 
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.requires:
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.requires:
 
-.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.requires
+.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.requires
 
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.provides: CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.provides.build
-.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.provides
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.provides: CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.provides.build
+.PHONY : CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.provides
 
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.provides.build: CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o
 
 
 # Object files for target ScienceWork
@@ -333,7 +333,7 @@ ScienceWork_OBJECTS = \
 "CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o" \
 "CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o" \
-"CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o"
+"CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o"
 
 # External object files for target ScienceWork
 ScienceWork_EXTERNAL_OBJECTS =
@@ -348,7 +348,7 @@ ScienceWork: CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o
-ScienceWork: CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o
+ScienceWork: CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o
 ScienceWork: CMakeFiles/ScienceWork.dir/build.make
 ScienceWork: CMakeFiles/ScienceWork.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rubylight/CLionProjects/ScienceWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ScienceWork"
@@ -369,7 +369,7 @@ CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Tests/Algorithm/
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o.requires
 CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o.requires
-CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o.requires
+CMakeFiles/ScienceWork.dir/requires: CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o.requires
 
 .PHONY : CMakeFiles/ScienceWork.dir/requires
 

@@ -150,32 +150,32 @@ Algorithm/Codeword.cpp.s:
 	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.s
 .PHONY : Algorithm/Codeword.cpp.s
 
-Algorithm/OSD.o: Algorithm/OSD.cpp.o
+Algorithm/Matrix.o: Algorithm/Matrix.cpp.o
 
-.PHONY : Algorithm/OSD.o
+.PHONY : Algorithm/Matrix.o
 
 # target to build an object file
-Algorithm/OSD.cpp.o:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o
-.PHONY : Algorithm/OSD.cpp.o
+Algorithm/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o
+.PHONY : Algorithm/Matrix.cpp.o
 
-Algorithm/OSD.i: Algorithm/OSD.cpp.i
+Algorithm/Matrix.i: Algorithm/Matrix.cpp.i
 
-.PHONY : Algorithm/OSD.i
+.PHONY : Algorithm/Matrix.i
 
 # target to preprocess a source file
-Algorithm/OSD.cpp.i:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.i
-.PHONY : Algorithm/OSD.cpp.i
+Algorithm/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.i
+.PHONY : Algorithm/Matrix.cpp.i
 
-Algorithm/OSD.s: Algorithm/OSD.cpp.s
+Algorithm/Matrix.s: Algorithm/Matrix.cpp.s
 
-.PHONY : Algorithm/OSD.s
+.PHONY : Algorithm/Matrix.s
 
 # target to generate assembly for a file
-Algorithm/OSD.cpp.s:
-	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.s
-.PHONY : Algorithm/OSD.cpp.s
+Algorithm/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/ScienceWork.dir/build.make CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.s
+.PHONY : Algorithm/Matrix.cpp.s
 
 Algorithm/SpectrumSolver.o: Algorithm/SpectrumSolver.cpp.o
 
@@ -432,9 +432,9 @@ help:
 	@echo "... Algorithm/Codeword.o"
 	@echo "... Algorithm/Codeword.i"
 	@echo "... Algorithm/Codeword.s"
-	@echo "... Algorithm/OSD.o"
-	@echo "... Algorithm/OSD.i"
-	@echo "... Algorithm/OSD.s"
+	@echo "... Algorithm/Matrix.o"
+	@echo "... Algorithm/Matrix.i"
+	@echo "... Algorithm/Matrix.s"
 	@echo "... Algorithm/SpectrumSolver.o"
 	@echo "... Algorithm/SpectrumSolver.i"
 	@echo "... Algorithm/SpectrumSolver.s"

@@ -4,50 +4,29 @@
 CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o: ../Algorithm/Codeword.cpp
 CMakeFiles/ScienceWork.dir/Algorithm/Codeword.cpp.o: ../Algorithm/Codeword.h
 
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o: ../Algorithm/OSD.cpp
-CMakeFiles/ScienceWork.dir/Algorithm/OSD.cpp.o: ../Algorithm/OSD.h
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o: ../Algorithm/Codeword.h
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o: ../Algorithm/Matrix.cpp
+CMakeFiles/ScienceWork.dir/Algorithm/Matrix.cpp.o: ../Algorithm/Matrix.h
 
 CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/Codeword.h
+CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/Matrix.h
 CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/SpectrumSolver.cpp
-CMakeFiles/ScienceWork.dir/Algorithm/SpectrumSolver.cpp.o: ../Algorithm/SpectrumSolver.h
 
-CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o: ../Algorithm/Codeword.h
 CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o: ../Readers/FileMatrixReader.cpp
-CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o: ../Readers/FileMatrixReader.h
-CMakeFiles/ScienceWork.dir/Readers/FileMatrixReader.cpp.o: ../Readers/MatrixReader.h
 
-CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o: ../Algorithm/Codeword.h
 CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o: ../Readers/MatrixReader.cpp
-CMakeFiles/ScienceWork.dir/Readers/MatrixReader.cpp.o: ../Readers/MatrixReader.h
 
-CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o: ../Algorithm/Codeword.h
-CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o: ../Algorithm/SpectrumSolver.h
 CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o: ../Tests/Algorithm/SpectrumSolverTest.cpp
-CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o: ../Tests/Algorithm/SpectrumSolverTest.h
-CMakeFiles/ScienceWork.dir/Tests/Algorithm/SpectrumSolverTest.cpp.o: ../Tests/Assert.h
 
 CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o: ../Tests/Assert.cpp
-CMakeFiles/ScienceWork.dir/Tests/Assert.cpp.o: ../Tests/Assert.h
 
-CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: ../Algorithm/Codeword.h
-CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: ../Readers/MatrixReader.h
-CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: ../Tests/Assert.h
 CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: ../Tests/Readers/MatrixReaderTest.cpp
-CMakeFiles/ScienceWork.dir/Tests/Readers/MatrixReaderTest.cpp.o: ../Tests/Readers/MatrixReaderTest.h
 
 CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o: ../Writers/FileSpectrumWriter.cpp
-CMakeFiles/ScienceWork.dir/Writers/FileSpectrumWriter.cpp.o: ../Writers/FileSpectrumWriter.h
 
 CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o: ../Writers/SpectrumWriter.cpp
-CMakeFiles/ScienceWork.dir/Writers/SpectrumWriter.cpp.o: ../Writers/SpectrumWriter.h
 
 CMakeFiles/ScienceWork.dir/main.cpp.o: ../Algorithm/Codeword.h
-CMakeFiles/ScienceWork.dir/main.cpp.o: ../Algorithm/SpectrumSolver.h
-CMakeFiles/ScienceWork.dir/main.cpp.o: ../Readers/MatrixReader.h
-CMakeFiles/ScienceWork.dir/main.cpp.o: ../Tests/Algorithm/SpectrumSolverTest.h
-CMakeFiles/ScienceWork.dir/main.cpp.o: ../Tests/Assert.h
-CMakeFiles/ScienceWork.dir/main.cpp.o: ../Tests/Readers/MatrixReaderTest.h
-CMakeFiles/ScienceWork.dir/main.cpp.o: ../Writers/FileSpectrumWriter.h
-CMakeFiles/ScienceWork.dir/main.cpp.o: ../Writers/SpectrumWriter.h
+CMakeFiles/ScienceWork.dir/main.cpp.o: ../Algorithm/Matrix.h
 CMakeFiles/ScienceWork.dir/main.cpp.o: ../main.cpp
 

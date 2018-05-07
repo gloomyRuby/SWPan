@@ -86,10 +86,10 @@
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Codeword.h">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.cpp">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Matrix.cpp">
 			<Option target="ScienceWork"/>
 		</Unit>
-		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/OSD.h">
+		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/Matrix.h">
 			<Option target="ScienceWork"/>
 		</Unit>
 		<Unit filename="/Users/rubylight/CLionProjects/ScienceWork/Algorithm/SpectrumSolver.cpp">

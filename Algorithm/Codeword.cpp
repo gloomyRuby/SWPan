@@ -5,28 +5,11 @@
 #include "Codeword.h"
 
 
-int sumInColumn(int *column, int k);
-
-void swap(int *a, int *b, int k);
-
-Codeword::Codeword(const int _length)
-{
-    length = _length;
-}
-
 Codeword::Codeword(const int line[])
 {
     for (int i = 0; i < length; ++i) {
         codeword[i] = line[i];
     }
-}
-
-Codeword &Codeword::operator+=(const int w[])
-{
-    for (int i = 0; i < length; i++) {
-        codeword[i] ^= w[i];
-    }
-    return *this;
 }
 
 Codeword &Codeword::operator=(const int w[])
@@ -35,11 +18,6 @@ Codeword &Codeword::operator=(const int w[])
         codeword[i] = w[i];
     }
     return *this;
-}
-
-int Codeword::getLength() const
-{
-    return length;
 }
 
 int Codeword::weight() const
